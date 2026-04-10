@@ -58,8 +58,8 @@ public class ChatLG implements Listener {
             }
             String finalMsg = msg;
 
-            this.actors.forEach(actorLG -> actorLG.sendMessage(namePrefix + PlayerLG.createPlayerLG(ev.getPlayer()).getNameWithAttributes(actorLG) + " §8§l» " + textColor + finalMsg));
-            this.spies.forEach(spyLG -> spyLG.sendMessage(namePrefix + "§kZIZITOUDUR" + " §8§l» " + textColor + finalMsg));
+            this.actors.forEach(actorLG -> actorLG.sendMessage(namePrefix + PlayerLG.createPlayerLG(ev.getPlayer()).getNameWithAttributes(actorLG) + " Â§8Â§lÂ» " + textColor + finalMsg));
+            this.spies.forEach(spyLG -> spyLG.sendMessage(namePrefix + "Â§kViveCSM" + " Â§8Â§lÂ» " + textColor + finalMsg));
         }
 
     }
